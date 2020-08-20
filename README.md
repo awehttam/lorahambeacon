@@ -10,7 +10,7 @@ A LoRa Beacon and messaging tool for Amateur Radio with the bsfrance LoRa32u4II 
 
 The software has been validated against the Dragino LG02 LoRa gateway.  
 
-I've run this for a while locally and haven't encountered any new obvious bugs.  The code could use some optimization, and the command parser needs to be refactored to handle commands from multiple inputs, and should use lookup tables.  At the moment ~2K of RAM is left free.
+I've run this for a while locally and haven't encountered any new obvious bugs.  The code could use some optimization, and the command parser needs to be refactored to handle commands from multiple inputs, and should use lookup tables.  At the moment ~2K of RAM is left free.  Some CHIRP parameters (SF, bandwidth, etc) are hard coded until configuration commands are added.  
 
 ## building the sketch
 
@@ -24,11 +24,11 @@ Beacons, telemetry (soon) and text messages are transmitted with your configured
 
 ### configuration
 
-  /callsign VE7???
-  /btext Some beacon text you want to transmit every so often
-  /binval Interval of beacon (in minutes)
-  /save Save configuration
-  /reboot Reboot
+* /callsign VE7???
+* /btext Some beacon text you want to transmit every so often
+* /binval Interval of beacon (in minutes)
+* /save Save configuration
+* /reboot Reboot
 
 ### texting
 
