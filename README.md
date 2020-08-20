@@ -8,7 +8,9 @@ A LoRa Beacon and messaging tool for Amateur Radio with the bsfrance LoRa32u4II 
  
 ## status
 
-The software has been validated against the Dragino LG02 LoRa gateway.  Code to be released soon(tm)
+The software has been validated against the Dragino LG02 LoRa gateway.  
+
+I've run this for a while locally and haven't encountered any new obvious bugs.  The code could use some optimization, and the command parser needs to be refactored to handle commands from multiple inputs, and should use lookup tables.  At the moment ~2K of RAM is left free.
 
 ## building the sketch
 
