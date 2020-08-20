@@ -36,8 +36,8 @@ Simply type text.  Any line of input that does not start with a '/' will be trea
 
 ### advanced
 
-  /dfl reset configuration to "default"
-  /reg dump registers
-  /scan loop through the channel list and display any received packets
+ * /dfl reset configuration to "default"
+ * /reg dump registers
+ * /scan loop through the channel list and display any received packets
 
  
